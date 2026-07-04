@@ -7,7 +7,8 @@ import {
   Globe, Code2, Gamepad2, MessageSquare, Play, Wrench, Cpu,
 } from 'lucide-react';
 
-const ICON_MAP: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const ICON_MAP: Record<string, React.ElementType<any>> = {
   Globe, Code2, Gamepad2, MessageSquare, Play, Wrench, Cpu,
 };
 
